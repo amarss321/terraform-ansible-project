@@ -23,3 +23,7 @@ variable "instance-type" {
   type    = string
   default = "t2.medium"
 }
+variable "webserver-port" {
+  type = number
+  default = 80
+}
